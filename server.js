@@ -35,7 +35,7 @@ app.get('/data/:id', (req, res) => {
     response.Result = {
       data: data
     };
-  } else if (id === 1) {
+  } else if (id === 2) {
     response.Result = {
       data: data2
     };
@@ -45,7 +45,7 @@ app.get('/data/:id', (req, res) => {
     };
   } else {
     response.ResponseCode = 1;
-    response.Message = 'Invalid ID';
+    response.Message = 'Invalid ID only 1 and 2 are valid';
     response.Result = {};
   }
 
