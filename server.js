@@ -4,21 +4,21 @@ const port = process.env.PORT || 3000;
 
 // Dummy data
 const data = [
-  { DBObjectName: "Contacts", Name: "Contact Info", Count: 1 },
-  { DBObjectName: "Branches", Name: "Branch Offices", Count: 23 },
-  { DBObjectName: "Industries", Name: "Industry Types", Count: 7 },
-  { DBObjectName: "Solutions", Name: "Solution Categories", Count: 5 },
-  { DBObjectName: "Products", Name: "Product Listings", Count: 10 },
-  { DBObjectName: "Services", Name: "Service Offerings", Count: 3 }
+  { DBObjectName: "Contacts",PrimaryKey:"ContactID", Name: "Contact Info", Count: 1 },
+  { DBObjectName: "Branches",PrimaryKey:"BranchesID", Name: "Branch Offices", Count: 23 },
+  { DBObjectName: "Industries",PrimaryKey:"IndustryID",Name: "Industry Types", Count: 7 },
+  { DBObjectName: "Solutions", PrimaryKey:"SolutuinID",Name: "Solution Categories", Count: 5 },
+  { DBObjectName: "Products", PrimaryKey:"ProductID", Name: "Product Listings", Count: 10 },
+  { DBObjectName: "Services", PrimaryKey:"ServiceID", Name: "Service Offerings", Count: 3 }
 ];
 
 const data2 = [
-  { DBObjectName: "Contacts", Name: "Contact Info", Count: 3 },
-  { DBObjectName: "Branches", Name: "Branch Offices", Count: 23 },
-  { DBObjectName: "Industries", Name: "Industry Types", Count: 6 },
-  { DBObjectName: "Solutions", Name: "Solution Categories", Count: 5 },
-  { DBObjectName: "Products", Name: "Product Listings", Count: 10 },
-  { DBObjectName: "Services", Name: "Service Offerings", Count: 2 }
+  { DBObjectName: "Contacts",PrimaryKey:"ContactID", Name: "Contact Info", Count: 3 },
+  { DBObjectName: "Branches",PrimaryKey:"ContactID", Name: "Branch Offices", Count: 23 },
+  { DBObjectName: "Industries",PrimaryKey:"ContactID", Name: "Industry Types", Count: 6 },
+  { DBObjectName: "Solutions",PrimaryKey:"ContactID", Name: "Solution Categories", Count: 5 },
+  { DBObjectName: "Products",PrimaryKey:"ContactID", Name: "Product Listings", Count: 10 },
+  { DBObjectName: "Services",PrimaryKey:"ContactID", Name: "Service Offerings", Count: 2 }
 ];
 
 // Route based on ID
