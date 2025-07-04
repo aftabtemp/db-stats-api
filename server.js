@@ -4,21 +4,21 @@ const port = process.env.PORT || 3000;
 
 // Dummy data
 const data = [
-  { dbName: "Contacts", name: "Contact Info", count: 1 },
-  { dbName: "Branches", name: "Branch Offices", count: 23 },
-  { dbName: "Industries", name: "Industry Types", count: 7 },
-  { dbName: "Solutions", name: "Solution Categories", count: 5 },
-  { dbName: "Products", name: "Product Listings", count: 10 },
-  { dbName: "Services", name: "Service Offerings", count: 3 }
+  { DBObjectName: "Contacts", Name: "Contact Info", Count: 1 },
+  { DBObjectName: "Branches", Name: "Branch Offices", Count: 23 },
+  { DBObjectName: "Industries", Name: "Industry Types", Count: 7 },
+  { DBObjectName: "Solutions", Name: "Solution Categories", Count: 5 },
+  { DBObjectName: "Products", Name: "Product Listings", Count: 10 },
+  { DBObjectName: "Services", Name: "Service Offerings", Count: 3 }
 ];
 
 const data2 = [
-  { dbName: "Contacts", name: "Contact Info", count: 3 },
-  { dbName: "Branches", name: "Branch Offices", count: 23 },
-  { dbName: "Industries", name: "Industry Types", count: 6 },
-  { dbName: "Solutions", name: "Solution Categories", count: 5 },
-  { dbName: "Products", name: "Product Listings", count: 10 },
-  { dbName: "Services", name: "Service Offerings", count: 2 }
+  { DBObjectName: "Contacts", Name: "Contact Info", Count: 3 },
+  { DBObjectName: "Branches", Name: "Branch Offices", Count: 23 },
+  { DBObjectName: "Industries", Name: "Industry Types", Count: 6 },
+  { DBObjectName: "Solutions", Name: "Solution Categories", Count: 5 },
+  { DBObjectName: "Products", Name: "Product Listings", Count: 10 },
+  { DBObjectName: "Services", Name: "Service Offerings", Count: 2 }
 ];
 
 // Route based on ID
